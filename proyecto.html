@@ -135,6 +135,109 @@
             </p>
         </section>
     </main>
+   
+    <style>
+        :root {
+            --bg-color: #f7f4ef;
+            --card-bg: #ffffff;
+            --sage-green: #738a70;
+            --warm-brown: #8c6d53;
+            --text-color: #4a4a4a;
+            --light-box: #f0ebe1;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            max-width: 750px;
+            width: 100%;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            color: var(--warm-brown);
+            font-size: 1.8rem;
+            margin-top: 0;
+            border-bottom: 2px solid var(--light-box);
+            padding-bottom: 12px;
+            text-align: center;
+        }
+
+        .ally-box {
+            background-color: var(--light-box);
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 6px solid var(--sage-green);
+            margin-top: 25px;
+        }
+
+        .ally-box h2 {
+            color: var(--warm-brown);
+            font-size: 1.4rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .ally-box p {
+            line-height: 1.7;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .features-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .features-list li {
+            background-color: var(--card-bg);
+            padding: 12px 15px;
+            border-radius: 6px;
+            font-weight: 500;
+            color: var(--sage-green);
+            border: 1px solid #e0dcd0;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="container">
+        <h1>Nuestros Aliados</h1>
+
+        <section class="ally-box">
+            <h2>Comunidad Artesanal Local</h2>
+            <p>
+                Trabajamos de forma directa y exclusiva con una pequeña comunidad de artesanos locales. Cada uno de nuestros jabones y elementos decorativos es elaborado 100% a mano con dedicación y tradición[cite: 1]. 
+            </p>
+            <p>
+                Junto a ellos, empleamos únicamente ingredientes y materiales 100% naturales, asegurando un proceso de producción respetuoso y amigable con la Madre Naturaleza en cada etapa de creación[cite: 1].
+            </p>
+
+            <ul class="features-list">
+                <li>🌱 Insumos 100% naturales[cite: 1]</li>
+                <li>🖐️ Elaboración a mano[cite: 1]</li>
+                <li>🌎 Amigable con el medio ambiente</li>
+                <li>🤝 Comercio local y justo</li>
+            </ul>
+        </section>
+    </main>
+
+
 
 
 
