@@ -137,7 +137,7 @@
             border-left-color: var(--warm-brown);
         }
 
-        /* Estilos para la Tabla de Precios */
+        /* Estilos para Tablas */
         .price-table-wrapper {
             overflow-x: auto;
             margin-top: 20px;
@@ -184,6 +184,41 @@
             margin-top: 15px;
             font-size: 0.9rem;
             color: var(--text-color);
+        }
+
+        /* Estilos para la Tabla de Fotos de Referencia (Sin Texto) */
+        .gallery-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 12px;
+            margin-top: 20px;
+        }
+
+        .gallery-table th {
+            background-color: var(--warm-brown);
+            color: #ffffff;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+
+        .gallery-card {
+            background-color: var(--light-box);
+            border-radius: 8px;
+            padding: 8px;
+            text-align: center;
+            border: 1px solid #e0dcd0;
+            vertical-align: middle;
+            width: 33.33%;
+        }
+
+        .gallery-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 6px;
+            background-color: #e2dacd;
+            display: block;
         }
 
         .ally-box, .legal-box {
@@ -258,6 +293,7 @@
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#productos-servicios">Productos y Servicios</a></li>
             <li><a href="#precios">Precios</a></li>
+            <li><a href="#galeria">Galería de Fotos</a></li>
             <li><a href="#nosotros">Sobre Nosotros</a></li>
             <li><a href="#aliados">Aliados</a></li>
             <li><a href="#legales">Términos y Privacidad</a></li>
@@ -416,6 +452,66 @@
         </div>
         <div class="price-note">
             💡 <strong>Política de Cotización:</strong> El costo final de nuestros servicios y piezas de decoración se determina en función del tipo de servicio requerido, las dimensiones solicitadas y la selección de materiales para su elaboración. Le invitamos a ponerse en contacto con nosotros para brindarle un presupuesto personalizado adaptado a sus necesidades.
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE GALERÍA Y FOTOS DE REFERENCIA (21 FOTOS SIN TEXTO) -->
+    <section class="container" id="galeria">
+        <h1 class="section-header">Fotos de Referencia</h1>
+        <p style="text-align: center;">Muestras visuales de nuestros productos y trabajos artesanales.</p>
+
+        <div class="price-table-wrapper">
+            <table class="gallery-table">
+                <thead>
+                    <tr>
+                        <th colspan="3">Galería de Muestras Artesanales</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Fila 1 -->
+                    <tr>
+                        <td class="gallery-card"><img src="w19.jpeg" alt="Muestra de producto 1"></td>
+                        <td class="gallery-card"><img src="w20.jpeg" alt="Muestra de producto 2"></td>
+                        <td class="gallery-card"><img src="w21.jpeg" alt="Muestra de producto 3"></td>
+                    </tr>
+                    <!-- Fila 2 -->
+                    <tr>
+                        <td class="gallery-card"><img src="w1.jpeg" alt="Muestra de producto 4"></td>
+                        <td class="gallery-card"><img src="w2.jpeg" alt="Muestra de producto 5"></td>
+                        <td class="gallery-card"><img src="w3.jpeg" alt="Muestra de producto 6"></td>
+                    </tr>
+                    <!-- Fila 3 -->
+                    <tr>
+                        <td class="gallery-card"><img src="w4.jpeg" alt="Muestra de producto 7"></td>
+                        <td class="gallery-card"><img src="w5.jpeg" alt="Muestra de producto 8"></td>
+                        <td class="gallery-card"><img src="w6.jpeg" alt="Muestra de producto 9"></td>
+                    </tr>
+                    <!-- Fila 4 -->
+                    <tr>
+                        <td class="gallery-card"><img src="w7.jpeg" alt="Muestra de producto 10"></td>
+                        <td class="gallery-card"><img src="w8.jpeg" alt="Muestra de producto 11"></td>
+                        <td class="gallery-card"><img src="w9.jpeg" alt="Muestra de producto 12"></td>
+                    </tr>
+                    <!-- Fila 5 -->
+                    <tr>
+                        <td class="gallery-card"><img src="w10.jpeg" alt="Muestra de producto 13"></td>
+                        <td class="gallery-card"><img src="w11.jpeg" alt="Muestra de producto 14"></td>
+                        <td class="gallery-card"><img src="w12.jpeg" alt="Muestra de producto 15"></td>
+                    </tr>
+                    <!-- Fila 6 -->
+                    <tr>
+                        <td class="gallery-card"><img src="w13.jpeg" alt="Muestra de producto 16"></td>
+                        <td class="gallery-card"><img src="w14.jpeg" alt="Muestra de producto 17"></td>
+                        <td class="gallery-card"><img src="w15.jpeg" alt="Muestra de producto 18"></td>
+                    </tr>
+                    <!-- Fila 7 -->
+                    <tr>
+                        <td class="gallery-card"><img src="w16.jpeg" alt="Muestra de producto 19"></td>
+                        <td class="gallery-card"><img src="w17.jpeg" alt="Muestra de producto 20"></td>
+                        <td class="gallery-card"><img src="w18.jpeg" alt="Muestra de producto 21"></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
 
