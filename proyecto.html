@@ -704,7 +704,101 @@
         letter-spacing: 2px;
     }
 </style>
+```html
+<!-- SECCIÓN DE CONTACTO -->
+<section class="container" id="contacto">
+    <h1 class="section-header">Contáctanos</h1>
+    <p style="text-align: center;">
+        ¿Tienes alguna duda o quieres hacer un pedido? Envíanos un mensaje.
+    </p>
 
+    <form class="contact-form" action="#" method="post">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Escribe tu nombre"
+                required
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="correo">Correo electrónico:</label>
+            <input
+                type="email"
+                id="correo"
+                name="correo"
+                placeholder="ejemplo@correo.com"
+                required
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="5"
+                placeholder="Escribe tu mensaje"
+                required
+            ></textarea>
+        </div>
+
+        <button type="submit" class="contact-btn">Enviar mensaje</button>
+    </form>
+</section>
+
+<style>
+    .contact-form {
+        max-width: 600px;
+        margin: 25px auto 0;
+    }
+
+    .form-group {
+        margin-bottom: 18px;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 7px;
+        color: var(--warm-brown);
+        font-weight: 600;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 12px 14px;
+        border: 1px solid var(--accent-border);
+        border-radius: 8px;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        font: inherit;
+    }
+
+    .form-group textarea {
+        resize: vertical;
+    }
+
+    .contact-btn {
+        padding: 12px 22px;
+        border: 0;
+        border-radius: 20px;
+        background-color: var(--warm-brown);
+        color: white;
+        font: inherit;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .contact-btn:hover {
+        background-color: var(--sage-green);
+    }
+</style>
+```
 
 
 
