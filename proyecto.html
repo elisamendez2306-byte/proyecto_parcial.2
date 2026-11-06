@@ -58,6 +58,8 @@
             margin: 0;
             display: flex;
             gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
         nav a {
@@ -135,6 +137,55 @@
             border-left-color: var(--warm-brown);
         }
 
+        /* Estilos para la Tabla de Precios */
+        .price-table-wrapper {
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+
+        .price-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .price-table th, .price-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--light-box);
+        }
+
+        .price-table th {
+            background-color: var(--sage-green);
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        .price-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .price-table tr:hover {
+            background-color: var(--light-box);
+        }
+
+        .price-tag {
+            font-weight: bold;
+            color: var(--warm-brown);
+        }
+
+        .price-note {
+            background-color: var(--light-box);
+            padding: 15px 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--warm-brown);
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: var(--text-color);
+        }
+
         .ally-box, .legal-box {
             background-color: var(--light-box);
             padding: 25px;
@@ -206,6 +257,7 @@
         <ul>
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#productos-servicios">Productos y Servicios</a></li>
+            <li><a href="#precios">Precios</a></li>
             <li><a href="#nosotros">Sobre Nosotros</a></li>
             <li><a href="#aliados">Aliados</a></li>
             <li><a href="#legales">Términos y Privacidad</a></li>
@@ -285,6 +337,87 @@
             </div>
         </div>
     </main>
+
+    <!-- SECCIÓN DE TABLA DE PRECIOS -->
+    <section class="container" id="precios">
+        <h1 class="section-header">Tabla de Precios</h1>
+
+        <h2 class="sub-header">🧼 Jabones Artesanales</h2>
+        <div class="price-table-wrapper">
+            <table class="price-table">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Presentación / Tamaño</th>
+                        <th>Precio Unitario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jabón Artesanal (Cualquier variedad)</td>
+                        <td>Pequeño</td>
+                        <td class="price-tag">$25 MXN</td>
+                    </tr>
+                    <tr>
+                        <td>Jabón Artesanal (Cualquier variedad)</td>
+                        <td>Mediano</td>
+                        <td class="price-tag">$35 MXN</td>
+                    </tr>
+                    <tr>
+                        <td>Jabón Artesanal (Cualquier variedad)</td>
+                        <td>Grande</td>
+                        <td class="price-tag">$50 MXN</td>
+                    </tr>
+                    <tr>
+                        <td>Jabón Artesanal con Lufa Exfoliante</td>
+                        <td>Especial (Con esponja natural de lufa)</td>
+                        <td class="price-tag">$65 MXN</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="price-note">
+            📌 <strong>Nota sobre nuestros jabones:</strong> Los precios por tamaño (Pequeño, Mediano y Grande) aplican para cualquiera de nuestras variedades. La versión especial incluye una esponja vegetal natural de lufa integrada para una exfoliación más profunda.
+        </p>
+
+        <h2 class="sub-header">✨ Servicios y Elementos Decorativos</h2>
+        <div class="price-table-wrapper">
+            <table class="price-table">
+                <thead>
+                    <tr>
+                        <th>Servicio / Categoría</th>
+                        <th>Factores de Valoración</th>
+                        <th>Cotización</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Centros de Mesa</td>
+                        <td>Dimensiones, diseño artesanal y volumen solicitado</td>
+                        <td class="price-tag">Bajo cotización</td>
+                    </tr>
+                    <tr>
+                        <td>Velas Aromáticas</td>
+                        <td>Tipo de envase, esencia y tamaño de la pieza</td>
+                        <td class="price-tag">Bajo cotización</td>
+                    </tr>
+                    <tr>
+                        <td>Velas Decorativas</td>
+                        <td>Complejidad del molde, dimensiones y cantidad</td>
+                        <td class="price-tag">Bajo cotización</td>
+                    </tr>
+                    <tr>
+                        <td>Figuras de Yeso</td>
+                        <td>Tamaño del modelo, acabado y volumen del pedido</td>
+                        <td class="price-tag">Bajo cotización</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="price-note">
+            💡 <strong>Política de Cotización:</strong> El costo final de nuestros servicios y piezas de decoración se determina en función del tipo de servicio requerido, las dimensiones solicitadas y la selección de materiales para su elaboración. Le invitamos a ponerse en contacto con nosotros para brindarle un presupuesto personalizado adaptado a sus necesidades.
+        </div>
+    </section>
 
     <!-- SOBRE NOSOTROS -->
     <section class="container" id="nosotros">
