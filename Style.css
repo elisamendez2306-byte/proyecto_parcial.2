@@ -771,3 +771,24 @@ img, iframe {
   gap: 1.5rem;
   padding: 1rem;
 }
+@media (min-width: 1024px) {
+  .main-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .navegacion {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  .boton-menu {
+    display: block;
+  }
+}
