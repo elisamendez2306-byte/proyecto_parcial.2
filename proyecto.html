@@ -645,6 +645,67 @@
         </ul>
     </footer>
 
+<!-- SECCIÓN DE TESTIMONIOS -->
+<section class="container" id="testimonios">
+    <h1 class="section-header">Testimonios de nuestros clientes</h1>
+    <p style="text-align: center;">
+        Sus opiniones nos ayudan a seguir creando productos artesanales con dedicación.
+    </p>
+
+    <div class="testimonials-grid">
+        <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p>“El jabón de avena es muy suave y huele delicioso. Me encantó la presentación.”</p>
+            <h3>Cliente de jabones artesanales</h3>
+        </article>
+
+        <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p>“La vela aromática quedó perfecta para mi casa. La atención fue muy amable.”</p>
+            <h3>Cliente de velas aromáticas</h3>
+        </article>
+
+        <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p>“Pedí centros de mesa personalizados y el resultado fue justo lo que buscaba.”</p>
+            <h3>Cliente de decoración</h3>
+        </article>
+    </div>
+</section>
+
+<style>
+    .testimonials-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 18px;
+        margin-top: 25px;
+    }
+
+    .testimonial-card {
+        padding: 22px;
+        background-color: var(--light-box);
+        border-left: 4px solid var(--sage-green);
+        border-radius: 8px;
+    }
+
+    .testimonial-card p {
+        font-style: italic;
+    }
+
+    .testimonial-card h3 {
+        margin-bottom: 0;
+        color: var(--warm-brown);
+        font-size: 1rem;
+    }
+
+    .testimonial-stars {
+        color: #d49b32;
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+    }
+</style>
+
+
 
 
 </body>
