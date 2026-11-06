@@ -1,273 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>proyecto</title>
-</head>
-<body>
-
-    <header>
-        <h1>Bienvenidos a nuestro negocio</h1>
-        <h2>¡Calidad y buen servicio para ti!</h2>
-    </header>
-
-    <main>
-        <p>
-            Ofrecemos productos de calidad a buenos precios,
-            brindando una excelente atención a nuestros clientes.
-        </p>
-    </main>
-    <footer>
-        <section id="redes-sociales">
-            <h3>Síguenos en nuestras redes</h3>
-            <p>Conéctate con nosotros y descubre más sobre nuestros servicios:p</p>
-            <ul>
-                <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-                <li><a href="https://wa.me/" target="_blank">WhatsApp</a></li>
-            </ul>
-        </section>
-    </footer>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#redes-sociales">Redes Sociales onichans</a></li>
-                <li><a href="https://www.google.com" target="_blank">Sitio Externo uwu</a></li>
-            </ul>
-        </nav>
-       
-    <title>Sobre Nosotros - Jabones y Velas Artesanales</title>
+    <title>Jabones y Velas Artesanales - Inicio</title>
     <style>
+        :root {
+            --bg-color: #f7f4ef;
+            --card-bg: #ffffff;
+            --sage-green: #738a70;
+            --warm-brown: #8c6d53;
+            --text-color: #4a4a4a;
+            --light-box: #f0ebe1;
+            --accent-border: #e2dacd;
+        }
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f7f4ef;
-            color: #333;
+            background-color: var(--bg-color);
+            color: var(--text-color);
             margin: 0;
             padding: 40px 20px;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
         }
 
-        .card {
-            background-color: #ffffff;
-            max-width: 650px;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-        }
-
-        h1 {
-            color: #4a5d4e;
-            font-size: 2rem;
-            margin-top: 0;
-            border-bottom: 2px solid #e2dacd;
-            padding-bottom: 10px;
-        }
-
-        .section {
+        header {
+            text-align: center;
             margin-bottom: 30px;
         }
 
-        .section-title {
-            font-size: 1.25rem;
-            color: #8c6d53;
-            margin-bottom: 8px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+        header h1 {
+            color: var(--warm-brown);
+            font-size: 2.2rem;
+            margin-bottom: 5px;
         }
 
-        p {
-            line-height: 1.6;
-            color: #555555;
-            margin: 0 0 10px 0;
+        header h2 {
+            color: var(--sage-green);
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin-top: 0;
         }
 
-        .highlight-box {
-            background-color: #f0ebe1;
-            padding: 15px 20px;
-            border-left: 5px solid #8c6d53;
-            border-radius: 4px;
-        }
-    </style>
-                
-
-
-    <article class="card">
-        <h1>Sobre Nosotros</h1>
-
-        <section class="section">
-            <h2 class="section-title">¿Quiénes Somos?</h2>
-            <p>
-                Somos un equipo apasionado dedicado a la elaboración de <strong>jabones y velas hechos a mano</strong>. Nos enfocamos en utilizar <strong>ingredientes naturales y fragancias exclusivas</strong> 
-
-       
-        <section class="section">
-            <h2 class="section-title">¿A Qué Nos Dedicamos?</h2>
-            <p>
-           orientados a dos áreas principales:
-            </p>
-            <ul>
-                <li><strong>Cuidado Personal:</strong> Jabones artesanales formulados para proteger y nutrir la piel</li>
-                <li><strong>Decoración del Hogar:</strong> Velas aromáticasdiseñadas para ambientar y decorar tus espacios</li>
-            </ul>
-        </section>
-
-    </article>
- 
-
-    <main class="container">
-        <h1>Nuestra Identidad y Visión</h1>
-
-   
-        <section class="section-box">
-            <h2>¿Cuál es nuestro propósito?</h2>
-            <p>
-                Buscamos fusionar el bienestar personal con la estética de los espacios a través de productos artesanales únicos. Nos dedicamos a la elaboración y venta de jabones artesanales formulados con ingredientes naturales para cuidar la piel, así como al diseño de decoraciones para el hogar, incluyendo macetas y elementos que aportan un toque cálido, natural y acogedor a cada rincón.
-            </p>
-        </section>
-
-       
-        <section class="section-box future">
-            <h2>¿Qué deseamos lograr en el futuro?</h2>
-            <p>
-                Aspiramos a posicionarnos como una marca referente en el mercado de la cosmética natural y la decoración artesanal. Nuestro objetivo es expandir nuestro catálogo de jabones y macetas decorativas, innovando constantemente en diseños y texturas para transformar los hogares en espacios más armónicos, estéticos y conectados con lo natural.
-            </p>
-        </section>
-    </main>
-   
-    <style>
-        :root {
-            --bg-color: #f7f4ef;
-            --card-bg: #ffffff;
-            --sage-green: #738a70;
-            --warm-brown: #8c6d53;
-            --text-color: #4a4a4a;
-            --light-box: #f0ebe1;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 40px 20px;
-            display: flex;
-            justify-content: center;
-        }
-
-        .container {
+        nav {
             background-color: var(--card-bg);
-            max-width: 750px;
-            width: 100%;
-            padding: 40px;
-            border-radius: 12px;
+            padding: 15px 30px;
+            border-radius: 30px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            margin-bottom: 40px;
         }
 
-        h1 {
-            color: var(--warm-brown);
-            font-size: 1.8rem;
-            margin-top: 0;
-            border-bottom: 2px solid var(--light-box);
-            padding-bottom: 12px;
-            text-align: center;
-        }
-
-        .ally-box {
-            background-color: var(--light-box);
-            padding: 30px;
-            border-radius: 10px;
-            border-left: 6px solid var(--sage-green);
-            margin-top: 25px;
-        }
-
-        .ally-box h2 {
-            color: var(--warm-brown);
-            font-size: 1.4rem;
-            margin-top: 0;
-            margin-bottom: 15px;
-        }
-
-        .ally-box p {
-            line-height: 1.7;
-            font-size: 1rem;
-            margin-bottom: 15px;
-        }
-
-        .features-list {
+        nav ul {
             list-style: none;
             padding: 0;
             margin: 0;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-        }
-
-        .features-list li {
-            background-color: var(--card-bg);
-            padding: 12px 15px;
-            border-radius: 6px;
-            font-weight: 500;
-            color: var(--sage-green);
-            border: 1px solid #e0dcd0;
-        }
-    </style>
-</head>
-<body>
-
-    <main class="container">
-        <h1>Nuestros Aliados</h1>
-
-        <section class="ally-box">
-            <h2>Comunidad Artesanal Local</h2>
-            <p>
-                Trabajamos de forma directa y exclusiva con una pequeña comunidad de artesanos locales. Cada uno de nuestros jabones y elementos decorativos es elaborado 100% a mano con dedicación y tradición[cite: 1]. 
-            </p>
-            <p>
-                Junto a ellos, empleamos únicamente ingredientes y materiales 100% naturales, asegurando un proceso de producción respetuoso y amigable con la Madre Naturaleza en cada etapa de creación[cite: 1].
-            </p>
-
-            <ul class="features-list">
-                <li>🌱 Insumos 100% naturales[cite: 1]</li>
-                <li>🖐️ Elaboración a mano[cite: 1]</li>
-                <li>🌎 Amigable con el medio ambiente</li>
-                <li>🤝 Comercio local y justo</li>
-            </ul>
-        </section>
-    </main>
-    
-
-    <style>
-        :root {
-            --bg-color: #f7f4ef;
-            --card-bg: #ffffff;
-            --sage-green: #738a70;
-            --warm-brown: #8c6d53;
-            --text-color: #4a4a4a;
-            --light-box: #f0ebe1;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 40px 20px;
             display: flex;
-            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--warm-brown);
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--sage-green);
         }
 
         .container {
             background-color: var(--card-bg);
-            max-width: 800px;
+            max-width: 850px;
             width: 100%;
             padding: 40px;
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            margin-bottom: 40px;
+            box-sizing: border-box;
         }
 
-        h1 {
+        h1.section-header {
             color: var(--warm-brown);
             font-size: 1.8rem;
             margin-top: 0;
@@ -276,11 +91,11 @@
             text-align: center;
         }
 
-        h2 {
+        h2.sub-header {
             color: var(--sage-green);
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             margin-top: 30px;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             border-bottom: 1px solid var(--light-box);
             padding-bottom: 5px;
         }
@@ -291,71 +106,259 @@
             color: var(--text-color);
         }
 
-        ul {
-            padding-left: 20px;
+        .catalog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .product-card {
+            background-color: var(--light-box);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid var(--sage-green);
+        }
+
+        .product-card h3 {
+            margin: 0 0 8px 0;
+            color: var(--warm-brown);
+            font-size: 1.1rem;
+        }
+
+        .product-card p {
+            margin: 0;
+            font-size: 0.88rem;
+        }
+
+        .service-card {
+            border-left-color: var(--warm-brown);
+        }
+
+        .ally-box, .legal-box {
+            background-color: var(--light-box);
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 5px solid var(--sage-green);
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
 
         .legal-box {
-            background-color: var(--light-box);
-            padding: 20px;
-            border-radius: 8px;
-            border-left: 4px solid var(--warm-brown);
-            margin-bottom: 25px;
+            border-left-color: var(--warm-brown);
         }
 
-        .contact-info {
-            background-color: var(--light-box);
-            padding: 15px 20px;
-            border-radius: 8px;
+        .features-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+
+        .features-list li {
+            background-color: var(--card-bg);
+            padding: 12px 15px;
+            border-radius: 6px;
             font-weight: 500;
+            color: var(--sage-green);
+            border: 1px solid #e0dcd0;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid var(--accent-border);
+            width: 100%;
+            max-width: 850px;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        footer a {
+            color: var(--warm-brown);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            color: var(--sage-green);
         }
     </style>
 </head>
 <body>
 
-    <main class="container">
-        <h1>Aviso de Privacidad y Términos Legales</h1>
+    <header id="inicio">
+        <h1>Bienvenidos a nuestro negocio</h1>
+        <h2>¡Calidad y buen servicio para ti!</h2>
+    </header>
 
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos-servicios">Productos y Servicios</a></li>
+            <li><a href="#nosotros">Sobre Nosotros</a></li>
+            <li><a href="#aliados">Aliados</a></li>
+            <li><a href="#legales">Términos y Privacidad</a></li>
+            <li><a href="#redes-sociales">Redes Sociales</a></li>
+        </ul>
+    </nav>
+
+    <!-- SECCIÓN DE PRODUCTOS Y SERVICIOS -->
+    <main class="container" id="productos-servicios">
+        <h1 class="section-header">Nuestros Productos y Servicios</h1>
         
-        <section>
-            <h2>1. Aviso de Privacidad</h2>
-            <div class="legal-box">
-                <p>En cumplimiento con las disposiciones de protección de datos personales, informamos a nuestros clientes sobre el tratamiento que se le da a la información recabada a través de nuestra tienda.</p>
+        <h2 class="sub-header">🧼 Jabones Artesanales</h2>
+        <div class="catalog-grid">
+            <div class="product-card">
+                <h3>Coco</h3>
+                <p>Hidratación profunda con aroma tropical relajante.</p>
             </div>
+            <div class="product-card">
+                <h3>Arroz</h3>
+                <p>Aclara la piel de forma natural, suaviza y ayuda a unificar el tono.</p>
+            </div>
+            <div class="product-card">
+                <h3>Avena</h3>
+                <p>Calma irritaciones, hidrata profundamente y protege la piel delicada.</p>
+            </div>
+            <div class="product-card">
+                <h3>Arroz con Avena</h3>
+                <p>Exfoliante suave, ideal para calmar y suavizar la piel sensible.</p>
+            </div>
+            <div class="product-card">
+                <h3>Miel</h3>
+                <p>Nutrición intensa con propiedades antibacterianas naturales.</p>
+            </div>
+            <div class="product-card">
+                <h3>Miel con Canela</h3>
+                <p>Aporta calidez, propiedades antioxidantes y un aroma delicioso.</p>
+            </div>
+            <div class="product-card">
+                <h3>Caléndula</h3>
+                <p>Ideal para pieles delicadas, con efecto calmante y cicatrizante.</p>
+            </div>
+            <div class="product-card">
+                <h3>Café con Cúrcuma</h3>
+                <p>Estimula la circulación y aporta un brillo natural.</p>
+            </div>
+            <div class="product-card">
+                <h3>Carbón Activado</h3>
+                <p>Limpieza profunda para desintoxicar los poros.</p>
+            </div>
+            <div class="product-card">
+                <h3>Aloe Vera</h3>
+                <p>Regenerador e hidratante, perfecto para calmar la piel.</p>
+            </div>
+            <div class="product-card">
+                <h3>Lavanda</h3>
+                <p>Efecto relajante y humectante para tu rutina diaria.</p>
+            </div>
+        </div>
 
-            <h3>Uso y Recopilación de Datos Personales</h3>
-            <p>Los datos personales que solicitamos (como nombre, teléfono, dirección de envío y correo electrónico) son estrictamente utilizados para las siguientes finalidades necesarias:</p>
-            <ul>
-                <li>Procesar, confirmar y enviar tus pedidos de jabones artesanales, macetas y productos decorativos.</li>
-                <li>Gestión de entregas, aclaraciones o seguimiento sobre tus compras.</li>
-                <li>Enviar promociones o novedades relativas a la marca (solo si el cliente ha dado su consentimiento expreso).</li>
+        <h2 class="sub-header">✨ Servicios y Decoración</h2>
+        <div class="catalog-grid">
+            <div class="product-card service-card">
+                <h3>Centros de Mesa</h3>
+                <p>Arreglos personalizados para eventos y ambientación de espacios.</p>
+            </div>
+            <div class="product-card service-card">
+                <h3>Velas Aromáticas</h3>
+                <p>Fragancias exclusivas diseñadas para armonizar tus ambientes.</p>
+            </div>
+            <div class="product-card service-card">
+                <h3>Velas Decorativas</h3>
+                <p>Diseños y moldes artesanales para embellecer cualquier rincón.</p>
+            </div>
+            <div class="product-card service-card">
+                <h3>Figuras de Yeso</h3>
+                <p>Piezas únicas hechas a mano para decoración del hogar.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- SOBRE NOSOTROS -->
+    <section class="container" id="nosotros">
+        <h1 class="section-header">Sobre Nosotros</h1>
+
+        <h2 class="sub-header">¿Quiénes Somos?</h2>
+        <p>
+            Somos un equipo apasionado dedicado a la elaboración de <strong>jabones y velas hechos a mano</strong>. Nos enfocamos en utilizar <strong>ingredientes naturales y fragancias exclusivas</strong>.
+        </p>
+
+        <h2 class="sub-header">¿Cuál es nuestro propósito?</h2>
+        <p>
+            Buscamos fusionar el bienestar personal con la estética de los espacios a través de productos artesanales únicos. Nos dedicamos a la elaboración y venta de jabones artesanales formulados con ingredientes naturales para cuidar la piel, así como al diseño de decoraciones para el hogar.
+        </p>
+
+        <h2 class="sub-header">¿Qué deseamos lograr en el futuro?</h2>
+        <p>
+            Aspiramos a posicionarnos como una marca referente en el mercado de la cosmética natural y la decoración artesanal, innovando constantemente en diseños y texturas para transformar los hogares en espacios más armónicos y acogedores.
+        </p>
+    </section>
+
+    <!-- ALIADOS LOCALES -->
+    <section class="container" id="aliados">
+        <h1 class="section-header">Nuestros Aliados</h1>
+
+        <div class="ally-box">
+            <h2 style="margin-top:0; color:var(--warm-brown);">Comunidad Artesanal Local</h2>
+            <p>
+                Trabajamos de forma directa y exclusiva con una pequeña comunidad de artesanos locales. Cada uno de nuestros jabones y elementos decorativos es elaborado 100% a mano con dedicación y tradición.
+            </p>
+            <p>
+                Empleamos únicamente ingredientes y materiales 100% naturales, asegurando un proceso de producción respetuoso y amigable con el medio ambiente.
+            </p>
+
+            <ul class="features-list">
+                <li>🌱 Insumos 100% naturales</li>
+                <li>🖐️ Elaboración a mano</li>
+                <li>🌎 Amigable con el ambiente</li>
+                <li>🤝 Comercio local y justo</li>
             </ul>
+        </div>
+    </section>
 
-            <h3>Protección de la Información</h3>
-            <p>Tus datos no serán compartidos, vendidos ni transferidos a terceros no autorizados. Únicamente se compartirán datos indispensables con servicios de mensajería para asegurar la entrega de tus productos.</p>
-        </section>
+    <!-- AVISO LEGAL Y PRIVACIDAD -->
+    <section class="container" id="legales">
+        <h1 class="section-header">Aviso de Privacidad y Términos Legales</h1>
 
-        <section>
-            <h2>2. Términos y Condiciones de Uso</h2>
-            
-            <h3>Características Artesanales de los Productos</h3>
-            <p>Al adquirir nuestros jabones artesanales y piezas decorativas (como macetas o velas), ten en cuenta que cada pieza es elaborada a mano con ingredientes y materiales naturales. Debido a esto, pueden existir ligeras variaciones en tonos, texturas o dimensiones, lo cual no constituye un defecto de fabricación, sino que garantiza la autenticidad de un producto artesanal[cite: 1].</p>
+        <h2 class="sub-header">1. Aviso de Privacidad</h2>
+        <div class="legal-box">
+            <p>En cumplimiento con las disposiciones de protección de datos personales, informamos a nuestros clientes sobre el tratamiento que se le da a la información recabada a través de nuestra tienda.</p>
+        </div>
 
-            <h3>Pedidos y Envíos</h3>
-            <p>Los tiempos de procesamiento de envío se confirmarán al momento de realizar la compra. Nos aseguramos de empaquetar adecuadamente las piezas decorativas de fragilidad (como macetas o frascos) para salvaguardar su estado durante el traslado.</p>
+        <p><strong>Uso y Recopilación de Datos Personales:</strong></p>
+        <ul>
+            <li>Procesar, confirmar y enviar tus pedidos de jabones artesanales y productos decorativos.</li>
+            <li>Gestión de entregas, aclaraciones o seguimiento sobre tus compras.</li>
+            <li>Enviar promociones o novedades relativas a la marca (previo consentimiento).</li>
+        </ul>
 
-            <h3>Uso Adecuado de Productos de Cuidado Personal</h3>
-            <p>Nuestros jabones artesanales están elaborados con ingredientes de origen natural[cite: 1]. Recomendamos revisar la lista de ingredientes si cuentas con piel sensible o alergias conocidas. Ante cualquier reacción adversa, suspende su uso inmediatamente.</p>
-        </section>
+        <h2 class="sub-header">2. Términos y Condiciones de Uso</h2>
+        <p><strong>Características Artesanales:</strong> Al adquirir nuestras piezas, ten en cuenta que cada una es elaborada a mano con materiales naturales. Pueden existir ligeras variaciones en tonos o dimensiones, lo cual garantiza la autenticidad de un producto artesanal.</p>
+        <p><strong>Uso Adecuado:</strong> Recomendamos revisar la lista de ingredientes de los jabones si cuentas con piel sensible o alergias conocidas.</p>
+    </section>
 
-        
-
-</body>
-</html>
-
-
-
-
+    <!-- PIE DE PÁGINA Y REDES SOCIALES -->
+    <footer id="redes-sociales">
+        <h3>Síguenos en nuestras redes</h3>
+        <p>Conéctate con nosotros y descubre más sobre nuestros productos:</p>
+        <ul>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+    </footer>
 
 </body>
 </html>
