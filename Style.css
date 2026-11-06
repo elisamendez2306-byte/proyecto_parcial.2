@@ -747,3 +747,11 @@ footer a:hover { transform: translateY(-4px) scale(1.05); }
     }
 }
 
+
+.divider-line {
+  height: 4px;
+  width: 80px;
+  background: linear-gradient(to right, var(--warm-brown), var(--sage-green));
+  margin: 15px auto 30px;
+  border-radius: 2px;
+}
