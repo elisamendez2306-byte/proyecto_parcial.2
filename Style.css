@@ -755,3 +755,19 @@ footer a:hover { transform: translateY(-4px) scale(1.05); }
   margin: 15px auto 30px;
   border-radius: 2px;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img, iframe {
+  max-width: 100%;
+  height: auto;
+}
+.contenedor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
